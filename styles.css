@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #004080; /* University blue color */
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #ffcc00; /* University highlight color */
+    color: #004080;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.about, .programs, .testimonials, .apply, .contact {
+    background: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about .container, .programs .container, .testimonials .container, .apply .container, .contact .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about h2, .programs h2, .testimonials h2, .apply h2, .contact h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.about p, .apply p, .contact p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.programs .program {
+    margin-bottom: 40px;
+}
+
+.programs .program img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.programs .program h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.programs .program p {
+    font-size: 1em;
+    margin-top: 10px;
+    color: #666;
+}
+
+.testimonials .testimonial {
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #444;
+}
+
+footer {
+    background: #004080;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
